@@ -17,21 +17,13 @@
     background: lightgrey;
     padding: 80px;
     height: 80%;
+    flex-wrap: wrap;
 }
 
 .even-columns > * {
     flex-basis: 100%;
-    padding: 50px;
+    flex: 1 1 20em;
+    padding: 20px;
     background: lightskyblue;
-
-}
-
-.content-flow .even-columns .col {
     border: 1px solid black;
-
-}
-
-#sd {
-    border: 10px solid black;
-    
 }

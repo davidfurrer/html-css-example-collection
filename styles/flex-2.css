@@ -18,6 +18,7 @@
     padding: 80px;
     height: 80%;
     flex-wrap: wrap;
+    gap: 20px;
 }
 
 .even-columns > * {
@@ -26,4 +27,18 @@
     padding: 20px;
     background: lightskyblue;
     border: 1px solid black;
+}
+
+.code-outer {
+    margin: 150px 50px 50px 50px;
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 10px;    
+}
+
+.code-outer .code-inner {
+    flex-basis: 100%;
+    flex: 1 1 30em;
+
 }

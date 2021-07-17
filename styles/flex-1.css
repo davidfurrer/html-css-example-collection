@@ -25,10 +25,15 @@ body {
 }
 
 .code-outer {
+    margin: 150px 50px 50px 50px;
     display: flex;
-    width: 90%;
+    flex-wrap: wrap;
+
+    gap: 10px;    
 }
 
-.code-inner {
+.code-outer .code-inner {
     flex-basis: 100%;
+    flex: 1 1 30em;
+
 }

@@ -22,7 +22,7 @@
 
 .even-columns > * {
     flex-basis: 100%;
-    flex: 1 1 20em;
+    flex: 1 1 10em;
     padding: 20px;
     background: lightskyblue;
     border: 1px solid black;

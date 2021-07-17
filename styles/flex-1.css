@@ -1,6 +1,5 @@
-body {
-    font-family: arial;
-}
+@import 'code-blocks.css';
+@import 'globals.css';
 
 .outer {
     display: flex;
@@ -22,18 +21,4 @@ body {
 
 .inner:hover {
     background-color: rgb(39, 138, 136);
-}
-
-.code-outer {
-    margin: 150px 50px 50px 50px;
-    display: flex;
-    flex-wrap: wrap;
-
-    gap: 10px;    
-}
-
-.code-outer .code-inner {
-    flex-basis: 100%;
-    flex: 1 1 30em;
-
 }

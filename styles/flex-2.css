@@ -1,11 +1,11 @@
-* {
-    font-family: arial;
-}
+@import 'code-blocks.css';
+@import 'globals.css';
 
 .content-flow {
+    width: 90%;
     height: 50vh;
     background: lightpink;
-    margin: 50px 100px 50px 100px;
+    margin: 10vh auto;
 }
 
 .content-flow .title {
@@ -16,7 +16,7 @@
     display: flex;
     background: lightgrey;
     padding: 80px;
-    height: 80%;
+    height: 70%;
     flex-wrap: wrap;
     gap: 20px;
 }
@@ -29,16 +29,3 @@
     border: 1px solid black;
 }
 
-.code-outer {
-    margin: 150px 50px 50px 50px;
-    display: flex;
-    flex-wrap: wrap;
-
-    gap: 10px;    
-}
-
-.code-outer .code-inner {
-    flex-basis: 100%;
-    flex: 1 1 30em;
-
-}

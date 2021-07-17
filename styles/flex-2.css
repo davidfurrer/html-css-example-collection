@@ -1,0 +1,37 @@
+* {
+    font-family: arial;
+}
+
+.content-flow {
+    height: 50vh;
+    background: lightpink;
+    margin: 50px 100px 50px 100px;
+}
+
+.content-flow .title {
+    text-align: center;
+}
+
+.even-columns {
+    display: flex;
+    background: lightgrey;
+    padding: 80px;
+    height: 80%;
+}
+
+.even-columns > * {
+    flex-basis: 100%;
+    padding: 50px;
+    background: lightskyblue;
+
+}
+
+.content-flow .even-columns .col {
+    border: 1px solid black;
+
+}
+
+#sd {
+    border: 10px solid black;
+    
+}

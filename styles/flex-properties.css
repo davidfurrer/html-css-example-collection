@@ -1,0 +1,22 @@
+@import 'globals.css';
+
+h1 {
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.coll {
+    border: 1px solid black;
+    background: lightblue;
+    flex-basis: 100%;
+    padding: 5vh;
+    line-height: 2em;
+    font-size: 1.2em;
+}
+
+

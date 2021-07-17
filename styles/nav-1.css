@@ -1,0 +1,36 @@
+@import 'globals.css';
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-div {
+    display: flex;
+    height: 10vh;
+    background: lightblue;
+    margin: 0;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    border: 1px solid black;
+}
+
+
+
+a {
+    text-decoration: none;
+    margin: 15vh;
+}
+
+.item:hover {
+    background: linear-gradient(lightblue, rgb(97, 97, 219));
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
